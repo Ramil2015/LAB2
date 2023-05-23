@@ -1,0 +1,58 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:rowCount="4"
+    android:layout_weight="1"
+    android:layout_gravity="fill"
+    android:padding="16dp">
+
+    <!-- Row 1: TextView and ImageButton -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I love Android"
+        android:textSize="30dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flag"
+        android:contentDescription="Flag" />
+
+    <!-- Row 2: Switch  -->
+    <Switch
+        android:id="@+id/Switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="@string/switch_on_off"
+        android:layout_columnSpan="2"
+        />
+
+    <!-- Row 3: Button and Checkbox -->
+
+    <Button
+        android:id="@+id/buttonPressMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Press Me" />
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Check this out!" />
+
+    <!-- Row 4: EditText -->
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="I love Android"
+        android:layout_columnSpan="2" />
+
+</GridLayout>

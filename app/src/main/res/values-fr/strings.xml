@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" >LAB2</string>
+    <string name="press_me" >APPUYEZ SUR MOI</string>
+    <string name="check_this_out" >Regarde ça!</string>
+    <string name="i_love_android" >J\'aime Androïd</string>
+    <string name="toast_message" >Le libellé a été mis à jour</string>
+    <string name="snackbar_message" >La case à cocher est maintenant</string>
+    <string name="switch_on_off">Allumer / éteindre</string>
+</resources>

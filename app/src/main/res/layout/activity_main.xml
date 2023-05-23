@@ -1,0 +1,11 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+ <!-- You just need to include the layout that you want to see
+  over here like activity_main_grid/linear/constraint-->
+ <include
+     layout="@layout/activity_main_grid" />
+</androidx.constraintlayout.widget.ConstraintLayout>
